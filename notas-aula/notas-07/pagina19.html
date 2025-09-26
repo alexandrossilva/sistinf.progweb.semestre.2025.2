@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles de Entrada Numérica</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        ol {
+            padding: 0;
+            list-style: none;
+        }
+
+        input {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <ol>
+            <li>Números de convidados:
+                <input type="number" name="convidados" min="1" max="6"></li>
+            <li>Nível de satisfação:
+                <input type="range" name="satisfacao" min="0" max="10" step="1">
+            </li>
+        </ol>
+    </form>    
+</body>
+</html>

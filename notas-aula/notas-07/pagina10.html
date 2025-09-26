@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões Customizados</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        input {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET">
+        <p>Inscreva-se em nossa lista de e-mails
+            <br>
+            <input type="email" name="email" size="30">
+            <br>
+            <button type="button">Inscrever-se</button>
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        let botao = document.querySelector('button');
+        botao.addEventListener('click', () => { document.querySelector('form').submit() });
+    </script>
+</body>
+</html>

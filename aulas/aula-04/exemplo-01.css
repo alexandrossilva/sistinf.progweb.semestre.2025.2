@@ -1,0 +1,23 @@
+p {
+    font-weight: bold;
+}
+
+em {
+    font-style: normal;
+    color: red;
+}
+
+b {
+    color: blue;
+    text-decoration: underline;
+}
+
+strong {
+    display: block;
+    margin: 16px 0;
+    border-width: 2px;
+    border-color: black;
+    border-style: double;
+    background-color: yellow;
+    padding: 5px;
+}

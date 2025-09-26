@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto de Perfil</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        select {
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="link-sucesso" value="http://www.exemplo.com.br/obrigado.html">
+        <p>Selecione uma foto para ser usada em seu perfil online
+            <br>
+            <input type="file" name="foto" accept=".png, .jpg">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de Controles de Formulário</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        input {
+            margin: 2px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET">
+        <fieldset>
+            <legend>Assinatura de Lista de E-mails</legend>
+            <ul>
+                <li><label>Sim, adicione-me <input type="radio" name="lista-email" value="sim"></label></li>
+                <li><label>Não, obrigado <input type="radio" name="lista-email" value="nao"></label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Informações do(a) Cliente</legend>
+            <ul>
+                <li><label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome">
+                </li>
+                <li><label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <li><label for="estado-civil">Estado Civil</label>
+                    <input type="text" name="estado-civil" id="estado-civil">
+                </li>
+            </ul>
+        </fieldset>
+    </form>    
+</body>
+</html>

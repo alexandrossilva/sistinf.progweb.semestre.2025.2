@@ -1,0 +1,8 @@
+td {
+    border-left: 4px solid black;
+    border-top: 10px dashed red;
+}
+
+.vermelho {
+    color: red;
+}

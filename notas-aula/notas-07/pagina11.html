@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET">
+        <p>Qual sua idade?</p>
+        <ol>
+            <li><input type="radio" name="idade" value="menos-24" checked>Até 24 anos</li>
+            <li><input type="radio" name="idade" value="25-34">De 25 a 34 anos</li>
+            <li><input type="radio" name="idade" value="35-44">De 35 a 44 anos</li>
+            <li><input type="radio" name="idade" value="mais-44">45 ou mais anos</li>
+        </ol>
+        <input type="submit" value="Enviar Escolha">
+    </form>    
+</body>
+</html>

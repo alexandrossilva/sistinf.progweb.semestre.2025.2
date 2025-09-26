@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+p, li {
+    text-align: justify;
+}
+
+li {
+    color: blue;
+}
+
+.vermelho {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+figure {
+    text-align: center;
+}

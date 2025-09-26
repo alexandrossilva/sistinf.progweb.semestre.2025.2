@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandas de Rock</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        select {
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET">
+        <p>Quais suas bandas de rock favoritas da década de 80?
+            <br>
+            <select name="bandas" size="6" multiple>
+                <option>Barão Vermelho</option>
+                <option>Biquini Cavadão</option>
+                <option>Capital Inicial</option>
+                <option selected>Engenheiros do Hawaii</option>
+                <option selected>Legião Urbana</option>
+                <option>Os Paralamas do Sucesso</option>
+                <option>Roupa Nova</option>
+                <option>RPM</option>
+                <option>Titãs</option>
+                <option>Ultraje a Rigor</option>
+            </select>
+        </p>
+        <input type="submit" value="Enviar Escolhas">
+    </form>    
+</body>
+</html>

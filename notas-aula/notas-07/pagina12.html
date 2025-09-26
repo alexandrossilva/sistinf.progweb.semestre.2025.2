@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gostos Musicais</title>
+    <style>
+        body {
+            background-color: #f2f4d6;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="GET">
+        <p>Você gosta de quais estilos de música?</p>
+        <ol>
+            <li><input type="checkbox" name="estilo" value="axe">Axé</li>
+            <li><input type="checkbox" name="estilo" value="mpb">MPB</li>
+            <li><input type="checkbox" name="estilo" value="rock">Rock</li>
+            <li><input type="checkbox" name="estilo" value="sertanejo">Sertanejo</li>
+        </ol>
+        <input type="submit" value="Enviar Escolhas">
+    </form>    
+</body>
+</html>
