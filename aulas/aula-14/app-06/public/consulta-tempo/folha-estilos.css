@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+    font-size: larger;
+}
+
+fieldset {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}

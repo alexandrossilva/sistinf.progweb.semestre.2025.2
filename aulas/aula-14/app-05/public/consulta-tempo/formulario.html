@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Tempo Atual</title>
+    <link rel="stylesheet" href="folha-estilos.css">
+</head>
+<body>
+    <form action="/instante-atual" method="get">
+        <h1>Consulta de Tempo Atual</h1>
+        <fieldset>
+            <legend>Selecione o formato desejado</legend>
+            <input type="radio" name="formato" value="dia-horario">Dia e horário
+            <br>
+            <input type="radio" name="formato" value="hor-min-seg">Horas, minutos e segundos
+            <br>
+            <input type="radio" name="formato" value="hor-min">Horas e minutos
+        </fieldset>
+        <input type="submit" value="Consultar">
+    </form>
+</body>
+</html>
